@@ -1,0 +1,45 @@
+=== SVAR climateflation : diagnostics ===
+Echantillon : 1987-06-01 -> 2015-04-01  (n=335)
+
+--- Tests ADF (H0 : racine unitaire) ---
+temp_shock   ADF= -3.551  p= 0.007  stationnaire
+dloil        ADF= -5.866  p= 0.000  stationnaire
+act          ADF= -3.295  p= 0.015  stationnaire
+infl         ADF= -3.750  p= 0.003  stationnaire
+dy10         ADF= -9.418  p= 0.000  stationnaire
+
+--- Selection du nombre de retards ---
+ VAR Order Selection (* highlights the minimums)  
+==================================================
+       AIC         BIC         FPE         HQIC   
+--------------------------------------------------
+0       -1.763      -1.705      0.1714      -1.740
+1       -2.982     -2.631*     0.05071     -2.842*
+2      -3.057*      -2.414    0.04705*      -2.800
+3       -3.009      -2.074     0.04935      -2.636
+4       -2.950      -1.721     0.05241      -2.459
+5       -2.934      -1.414     0.05328      -2.327
+6       -2.901      -1.088     0.05516      -2.177
+7       -2.822     -0.7164     0.05979      -1.981
+8       -2.761     -0.3631     0.06369      -1.804
+9       -2.709    -0.01862     0.06728      -1.635
+10      -2.751      0.2309     0.06469      -1.561
+11      -2.713      0.5616     0.06751      -1.406
+12      -2.732      0.8349     0.06658      -1.308
+--------------------------------------------------
+
+Retards retenus (AIC) : 2
+
+Module des racines (toutes > 1 => stable) : min=1.153
+Systeme stable : True
+
+--- IRF (reponse a un choc de +1 e.t. de temperature) ---
+Reponse pic de l'inflation : 0.345 pp annualises (horizon 1)
+Reponse cumulee de l'inflation a 12 mois : -2.022
+Reponse pic de l'activite : 0.025 pp
+
+--- Decomposition de variance de l'inflation (part du choc temperature) ---
+  h= 1 :  0.00%
+  h= 6 :  2.19%
+  h=12 :  2.67%
+  h=24 :  2.77%

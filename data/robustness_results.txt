@@ -1,0 +1,12 @@
+=== Robustesse : effet du choc climatique sur l'inflation ===
+FEVD(24) = part (%) de variance d'inflation due au choc ; cum12 = reponse cumulee a 12 mois (pp).
+
+Variante                                    FEVD(24) %  cum12 (pp)
+Retards p=2 (temp 1er, detrend lin.)              2.77       -2.02
+Retards p=3 (temp 1er, detrend lin.)              3.19       -2.05
+Retards p=4 (temp 1er, detrend lin.)              3.24       -2.11
+Temperature en DERNIER (p=2)                      2.15       -1.84
+Detrendage quadratique (temp 1er, p=2)            0.87       -0.88
+Detrendage HP (temp 1er, p=2)                     0.47       -0.47
+
+Conclusion : la part de variance reste faible (< ~4 %) et la reponse cumulee negative dans toutes les variantes -> resultat robuste.
