@@ -1,7 +1,7 @@
 # Climat et Banque Centrale — *La climateflation* (SVAR, Local Projections, allocation d'actifs)
 
-Projet d'économétrie — Université Paris-Dauphine, Master Finance & Économétrie
-(cours de Politique Monétaire). Réponse à la question **« Le climat : la Banque Centrale
+Projet Politique Monétaire, Macro et Allocation — Université Paris-Dauphine, Master Ingénierie financière et économique. 
+Réponse à la question **« Le climat : la Banque Centrale
 a-t-elle un rôle à jouer ? »** par l'analyse empirique de la transmission des chocs
 climatiques à l'inflation, à la croissance et aux prix d'actifs.
 
@@ -67,4 +67,4 @@ cd report && pdflatex rapport.tex && pdflatex rapport.tex   # deux passes (TOC +
 - Résultats **robustes** à l'ordre de Cholesky, aux retards et au détrendage.
 - Conclusion : rôle de la banque centrale surtout **prospectif et prudentiel**.
 
-> Données 100 % réelles et publiques. Aucune valeur n'est simulée.
+Auteur : Yves-Marie Saliou, Milos Gajic, Marc Jehannin
