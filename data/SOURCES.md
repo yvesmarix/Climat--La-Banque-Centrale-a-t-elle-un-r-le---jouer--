@@ -5,7 +5,7 @@ dépôts ouverts (datahub.io et miroirs GitHub). Aucune donnée n'est simulée.
 
 | Fichier brut | Contenu | Source |
 |---|---|---|
-| `temp_raw.csv` | Anomalie de température globale (GCAG / NOAA), mensuelle depuis 1850 | https://raw.githubusercontent.com/datasets/global-temp/master/data/monthly.csv |
+| `temp_raw.csv` | Anomalie de température globale (GCAG / NOAA), mensuelle depuis 1850 | https://datahub.io/core/global-temp |
 | `cpi_raw.csv` | Indice des prix à la consommation US (IPC), mensuel depuis 1913 | https://raw.githubusercontent.com/datasets/cpi-us/master/data/cpiai.csv |
 | `brent_raw.csv` | Prix du pétrole Brent, quotidien depuis 1987 (agrégé en moyenne mensuelle) | https://raw.githubusercontent.com/datasets/oil-prices/master/data/brent-daily.csv |
 | `economics.csv` | Consommation (PCE), population, chômage — jeu *economics* de ggplot2, 1967–2015 | https://raw.githubusercontent.com/selva86/datasets/master/economics.csv |
